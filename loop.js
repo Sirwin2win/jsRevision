@@ -48,6 +48,16 @@ const students[0] = {id:1,name:"Peter Doe", email:'peterdoe@gmail.com'},
 const students[1] = {id:2,name:"Joel Doe", email:'joeldoe@gmail.com'},
 const students[2] =  {id:3,name:"Mary Doe", email:'marydoe@gmail.com'},
 
-
+initialization
+while(condition){
+  loop body
+  increment/ decrement
+}
 
 */
+const people = ["Ade", "Uche","Ola","Tobi"]
+let k = 0
+while(k<people.length){
+    console.log(people[k].toUpperCase())
+    k+=1
+}
